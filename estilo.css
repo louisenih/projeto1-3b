@@ -4,4 +4,5 @@ body{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(76,120,198,1) 18%, rgba(0,11,50,1) 55%);
     background-repeat: no-repeat;
     width: 100%;
+    margin: 0px;
 }
