@@ -16,3 +16,9 @@ body{
     font-weight: 1000;
     font-style: normal;
 }
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+
+}
