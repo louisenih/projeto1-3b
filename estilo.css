@@ -1,11 +1,11 @@
 :root{
---cor-de-fundo:180deg, rgba(255,255,255,1) 0%, rgba(76,120,198,1) 18%, rgba(0,11,50,1) 55%;
+--cor-de-fundo:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(76,120,198,1) 18%, rgba(0,11,50,1) 55%);
 --cor-da-fonte: #FFFF;
 }
 
 body{
     background: rgb(255,255,255);
-    background: linear-gradient(var(--cor-de-fundo));
+    background: var(--cor-de-fundo);
     background-repeat: no-repeat;
     height: 100vh;
     color: var(--cor-da-fonte);
