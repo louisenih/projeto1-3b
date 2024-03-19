@@ -3,6 +3,7 @@
 :root{
 --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgba(76,120,198,1) 18%, #ffff 55%);
 --cor-da-fonte: #FFFF;
+--cor-da-letra: #e64141;
 }
 
 body{
@@ -28,5 +29,5 @@ body{
 
 }
 .conteudo-principal span{
-    color: var(--verde);
+    color: var(--cor-da-letra);
 }
