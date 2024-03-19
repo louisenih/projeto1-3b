@@ -3,7 +3,9 @@
 :root{
 --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgba(76,120,198,1) 18%, #ffff 55%);
 --cor-da-fonte: #FFFF;
---cor-da-letra: #e64141;
+--vermelho: #e64141;
+--botao-ativo:#5967e7;
+--botao-inativo:#0212aa;
 }
 
 body{
@@ -29,5 +31,9 @@ body{
 
 }
 .conteudo-principal span{
-    color: var(--cor-da-letra);
+    color: var(--vermelho);
+}
+.botao{
+    font-size: 18px;
+    background-color: var(--botao-inativo);
 }
