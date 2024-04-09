@@ -6,6 +6,7 @@
 --vermelho: #e64141;
 --botao-ativo:#5967e7;
 --botao-inativo:#0212aa;
+--borda-botao: rgb(28, 247, 28);
 }
 
 body{
@@ -70,6 +71,12 @@ body{
      display: block;
  }
 
+ .ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: var(--borda-botao);
+ }
+
+
  @media screen and (min-width:768px){
      .principal-botoes{
          display: flex;
@@ -82,3 +89,5 @@ body{
 
      }
  }
+
+ 
