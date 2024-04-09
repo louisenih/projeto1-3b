@@ -1,0 +1,1 @@
+const botao = document.querySelectorAll(".principal-botoes") 
