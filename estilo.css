@@ -88,7 +88,8 @@ body{
     }
     
     .aba-conteudo-titulo-principal{
-        color: blue
+        color: blue;
+        text-transform: uppercase;
     }
 
  @media screen and (min-width:768px){
