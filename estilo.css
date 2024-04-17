@@ -76,6 +76,14 @@ body{
     border-bottom: 4px solid var(--borda-botao);
  }
 
+ .abas-textos{
+    background-color: #5b64ec;
+    padding:40px ;
+    border-radius: 0 0 40px 40px;
+
+    }
+    
+
 
  @media screen and (min-width:768px){
      .principal-botoes{
@@ -89,13 +97,8 @@ body{
 
      }
  }
-.abas-textos{
-    background-color: #5b64ec;
-    padding:40px ;
-    border-radius: 0 0 40px 40px;
 
-    }
     
 
-}
+
  
