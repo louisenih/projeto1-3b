@@ -71,9 +71,15 @@ body{
      display: block;
  }
 
- .ativo{
+ .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--borda-botao);
+ }
+ .aba-conteudo.ativo{
+    display: block;
+ }
+ .aba-conteudo{
+    display: none;
  }
 
  .abas-textos{
