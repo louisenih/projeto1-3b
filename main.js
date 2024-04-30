@@ -23,6 +23,7 @@ for(let j=0;j<botoes.length;j++){
 
 
 const contador = document.querySelectorAll(".contador")
+const tempo0objetivo1 = new Date ("2024-10-05");
 
 contador[0].textContent = "Contagem regressiva"
 
