@@ -1,2 +1,5 @@
 # projeto1-3b
-dfvsDF
+Integrantes do grupo:
+-Alessandro Mendonça 02;
+-Nicole Louise 31;
+-Ingrid Masba 16.
