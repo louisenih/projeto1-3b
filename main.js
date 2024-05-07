@@ -19,8 +19,8 @@ for(let j=0;j<botoes.length;j++){
 
 
 
-const contador = document.querySelectorAll(".contador")
-const tempoObjetivo1 = new Date ("2024-10-05T00:00:00")
+const contador = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date ("2024-10-05T00:00:00");
 
 contador[0].textContent = tempoObjetivo1 - tempoAtual
 
