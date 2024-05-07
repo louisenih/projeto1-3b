@@ -22,11 +22,11 @@ for(let j=0;j<botoes.length;j++){
 const contador = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date ("2024-10-05T00:00:00");
 
-contador[0].textContent = tempoObjetivo1 - tempoAtual
+contador[0].textContent = calculaTempo(tempoObjetivo1);
 
-function calcularTempo(tempoObjetivo1){
+function calcularTempo(tempoObjetivo){
 let tempoAtual = new Date();
-let tempoFinal = tempoObjetivo1 - tempoAtual;
+let tempoFinal = tempoObjetivo - tempoAtual;
 let segundos = Math.floor (tempoFinal / 1000);
 let minutos = Math.floor(segundos / 60); 
 let horas = Math.floor(minutos / 60);
