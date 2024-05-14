@@ -21,6 +21,9 @@ for(let j=0;j<botoes.length;j++){
 
 const contador = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date ("2024-10-05T00:00:00");
+const tempoObjetivo2 = new Date ("2024-12-30T00:00:00");
+const tempoObjetivo3 = new Date ("2024-11-01T00:00:00");
+const tempoObjetivo4 = new Date ("2024-10-05T00:00:00");
 
 contador[0].textContent = calcularTempo(tempoObjetivo1);
 
