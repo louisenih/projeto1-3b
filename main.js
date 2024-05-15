@@ -27,8 +27,9 @@ const tempoObjetivo4 = new Date ("2025-01-05T00:00:00");
 
 contador[0].textContent = calcularTempo(tempoObjetivo1);
 const tempos=[tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+
 function atualizaCronometro(){
-    for(let=0;i<contadores.length;i++){
+    for(let i=0;i<contadores.length;i++){
         contadores[i].textContent=caculaTempo(tempos[i]);
     }
 }
