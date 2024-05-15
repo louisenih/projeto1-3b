@@ -34,6 +34,8 @@ function atualizaCronometro(){
     }
 }
 
+atualizaCronometro()
+
 function calcularTempo(tempoObjetivo){
     
 let tempoAtual = new Date();
