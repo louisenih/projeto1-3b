@@ -34,7 +34,8 @@ function atualizaCronometro(){
     }
 }
 
-atualizaCronometro()
+atualizaCronometro();
+setInterval(atualizaCronometro,1000);
 
 function calcularTempo(tempoObjetivo){
     
